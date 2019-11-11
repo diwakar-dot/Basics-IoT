@@ -9,6 +9,7 @@ IoT is not a single course to complete.IoT has 3-ends.
   1.It includes embedded systems,wireles communications.
 3.security:-
      1.With IoT we mostly deal with data.so it needs to be secure.Get stronger with cybersecurity.
+---contibutions are accepted
      
 # arduino
 Arduino is an good start with IoT.we will get to know the process,where you can find in more detail about the # ends mentioned above.

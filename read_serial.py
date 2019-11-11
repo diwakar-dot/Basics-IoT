@@ -1,6 +1,12 @@
 
+#with this code you are able to read data from arduino serial monitor.The data can be saved in your pc as a csv file
+#we can have a scatterplot for the data stored in .
+
+
+
+
 #pre-requisites
-#ensure that your laptop is connected to arduino.
+#ensure that your laptop is connected to arduino with sensors and required hardware components.
 #download pyserial,matplotlib packages in case if you dont have.
 
 
@@ -19,13 +25,13 @@ for i in range(n):
 	stn=b.decode()
 	st=stn.rstrip()
 	flt=int(st)
-
+print ("Distance:",flt)
 	data.append(flt)
 	time.sleep(0.1)
 ser.close()
 
-for line in data:
-	print("Distance:",line)
+#for line in data:
+	#print("Distance:",line)
 
 with open("readings.csv",'w+') as csvfile:			#this will create a csv file named:readings
 								
